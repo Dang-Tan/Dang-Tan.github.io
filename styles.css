@@ -15,7 +15,9 @@ body{
     width: 100%;
 }
 
-.inhalte{
-    text-align:center;
-    font-size:1vw;
+.inhalte {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
