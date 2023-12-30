@@ -1,8 +1,21 @@
 :root{
-    background-color: antiquewhite;
-    color:black
+    background-color: white;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-h1{
-    text-align:center
+body{
+    margin:0%;
+}
+
+
+
+.navbarup {
+    background-color: lightskyblue;
+    width: 100%;
+}
+
+.inhalte{
+    text-align:center;
+    font-size:1vw;
 }
