@@ -26,7 +26,7 @@ img{
     align-items: center;
 }
 
-.flappytan{
+.bilder{
     border-radius:50%;
     width:8vw;
     height:8vw;
@@ -58,7 +58,7 @@ a {
 }
 
 @media screen and (max-width: 700px) {
-    .inhalte, .downbar, .navbarup, img, .flappytan {
+    .inhalte, .downbar, .navbarup, img, .bilder {
         font-size: 2.5vw;
     }
     .downbar {
@@ -70,14 +70,14 @@ a {
     img{
         height:40vw
     }
-    .flappytan {
+    .bilder {
         width: 10vw;
         height: 10vw;
     }
 }
 
 @media screen and (max-width: 550px) {
-    .inhalte, .downbar, .navbarup, img, .flappytan {
+    .inhalte, .downbar, .navbarup, img, .bilder {
         font-size: 3.5vw;
     }
     .downbar{
@@ -90,12 +90,16 @@ a {
         height: 50vw
     }
 
-    .flappytan {
+    .bilder {
         width: 12vw;
         height: 12vw;
     }
 
 }
 
-
+.tablegame {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing:3vw;
+}
 
