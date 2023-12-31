@@ -11,7 +11,7 @@ body{
 
 img{
     width:100%;
-    height:30vw;
+    height:35vw;
     object-fit:cover;
 }
 
@@ -24,6 +24,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
 }
 
 .bilder{
@@ -68,7 +69,7 @@ a {
         height: 10vw;
     }
     img{
-        height:40vw
+        height:45vw
     }
     .bilder {
         width: 10vw;
@@ -87,7 +88,7 @@ a {
         height: 15vw;
     }
     img {
-        height: 50vw
+        height: 55vw
     }
 
     .bilder {
