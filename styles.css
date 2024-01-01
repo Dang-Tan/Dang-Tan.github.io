@@ -27,6 +27,7 @@ img{
     position: fixed;
 }
 
+
 .bilder{
     border-radius:50%;
     width:8vw;
@@ -43,7 +44,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:4vw;
 }
 
 .inhalte {
@@ -53,13 +53,12 @@ img{
     padding-right: 10vw;
 }
 
-a {
-    margin-left: 3vw;
-    margin-right: 3vw;
+.bt {
+    padding: 1.4vw;
 }
 
 @media screen and (max-width: 700px) {
-    .inhalte, .downbar, .navbarup, img, .bilder {
+    .inhalte, .downbar, .navbarup, img, .bilder, .bt{
         font-size: 2.5vw;
     }
     .downbar {
@@ -75,10 +74,16 @@ a {
         width: 10vw;
         height: 10vw;
     }
+
+    .bt{
+        padding: 3.5vw;
+    }
 }
 
+
+
 @media screen and (max-width: 550px) {
-    .inhalte, .downbar, .navbarup, img, .bilder {
+    .inhalte, .downbar, .navbarup, img, .bilder, .bt{
         font-size: 3.5vw;
     }
     .downbar{
@@ -96,11 +101,37 @@ a {
         height: 12vw;
     }
 
+    .bt {
+        padding: 5.5vw;
+    }
+
 }
 
 .tablegame {
     margin-left: auto;
     margin-right: auto;
     border-spacing:3vw;
+}
+
+h2{
+    background-color:lightblue;
+    border-radius:8px;
+}
+
+.abschnitt {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+
+.bt:link, .bt:visited {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.bt:hover, .bt:active {
+    background-color: cornflowerblue;
 }
 
